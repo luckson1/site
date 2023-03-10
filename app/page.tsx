@@ -1,91 +1,47 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
+
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+  <main className='bg-base-100 p-6 flex flex-col gap-16'>
+   
+            <p className=" text-[20px]  font-bold  text-base-content md:text-[28px] lg:text-[63px]">Hi  👋, </p>
+            
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
+    
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+        <div className="wrapper   flex h-fit min-h-[48px]  w-fit items-center bg-base-100">
+              <div className=" inline text-[20px]  font-bold  text-base-content md:text-[28px] lg:text-[63px] ">
+                I am 
+              </div>
+              <ul className=" dynamic  mt-1 ml-5 text-base-content lg:mt-4 lg:ml-10 ">
+              <li>
+                  <span>Jack Gathondu </span>
+                </li>
+                <li>
+                  <span> A Web Developer </span>
+                </li>
+                <li>
+                  <span> A Chess Player </span>
+                </li>
+                <li>
+                  <span>A Minimalist </span>
+                </li>
+              
+              
+              
+              </ul>
+            </div>
+            <div className="leading-loose flex flex-col gap-3">
+            <p>I am <strong>Jack Gathondu</strong>, I made this site for <strong>you </strong>😊!</p>
+            <p>I am a web developer and react performance enthusiast.</p>
+            <p>Check my projects and experiments on <a href="https://github.com/luckson1" target="_blank" rel="noreferrer nofollow" className="text-primary underline"><strong>GitHub</strong></a>.</p>
+            <p>Follow me on <a href="https://twitter.com/JackBatian" target="_blank" rel="noreferrer nofollow" className="text-primary underline"><strong>Twitter</strong></a> where I share on React, and sometimes, funny memes 🙈.</p>
+            <p>Email me via <a href="mailto:jackgathondu@gmail.com" target="_blank" rel="noreferrer nofollow" className="text-primary underline"><strong>jackgathondu@gmail.com</strong></a></p>
+            </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+  </main>
   )
 }
