@@ -7,7 +7,7 @@ const page = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
       <div className="card w-full glass shadow-accent shadow-lg ">
         <figure className="relative w-full h-[300px]">
-          <Image src="/dashboard.png " fill alt="car!" />
+          <Image src="/dashboard.png " fill alt="web-screenshot" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">Ecommerce Dashboard</h2>
@@ -22,7 +22,7 @@ const page = () => {
       </div>
       <div className="card w-full glass shadow-accent shadow-lg ">
         <figure className="relative w-full h-[300px]">
-          <Image src="/task.png " fill alt="car!" />
+          <Image src="/task.png " fill alt="web-screenshot" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">Techivity</h2>
@@ -37,7 +37,7 @@ const page = () => {
       </div>
       <div className="card w-full glass shadow-accent shadow-lg ">
         <figure className="relative w-full h-[300px]">
-          <Image src="/marketplace.png " fill alt="car!" />
+          <Image src="/marketplace.png " fill alt="web-screenshot" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">Jenga</h2>
@@ -52,7 +52,7 @@ const page = () => {
       </div>
       <div className="card w-full glass shadow-accent shadow-lg ">
         <figure className="relative w-full h-[300px]">
-          <Image src="https://res.cloudinary.com/dhciks96e/image/upload/v1678480549/AI_ddqszo.png " fill alt="car!" />
+          <Image src="https://res.cloudinary.com/dhciks96e/image/upload/v1678480549/AI_ddqszo.png " fill alt="web-screenshot" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">Sasha</h2>
