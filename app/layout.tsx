@@ -16,7 +16,7 @@ export default function RootLayout({
  
   return (
   
-    <html data-theme="cupcake">
+    <html data-theme="cupcake" lang='en'>
 
 
     <body>
