@@ -26,7 +26,7 @@ export default function Home() {
                   <span> A Chess Player </span>
                 </li>
                 <li>
-                  <span>A Minimalist </span>
+                  <span>An AI Enthusiast </span>
                 </li>
               
               
