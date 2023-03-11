@@ -23,7 +23,7 @@ export default function Home() {
                   <span> A Web Developer </span>
                 </li>
                 <li>
-                  <span> A Chess Player </span>
+                  <span> An Autodidact</span>
                 </li>
                 <li>
                   <span>An AI Enthusiast </span>
