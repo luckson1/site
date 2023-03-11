@@ -7,20 +7,20 @@ export default function Home() {
 
       <div className="wrapper   flex h-fit min-h-[48px]  w-fit items-center bg-base-100">
         <div className=" inline text-[20px]  font-bold  text-base-content md:text-[28px] lg:text-[63px] ">
-          I Am
+          I am
         </div>
         <ul className=" dynamic  mt-1 ml-5 text-base-content lg:mt-4 lg:ml-10 ">
           <li>
             <span>Jack Gathondu </span>
           </li>
           <li>
-            <span> A Web Developer </span>
+            <span> a web developer </span>
           </li>
           <li>
-            <span> An Autodidact</span>
+            <span> an autodidact</span>
           </li>
           <li>
-            <span>An AI Enthusiast </span>
+            <span>an AI enthusiast </span>
           </li>
         </ul>
       </div>
