@@ -37,7 +37,7 @@ const page = () => {
       </div>
       <div className="card w-full glass shadow-accent shadow-lg ">
         <figure className="relative w-full h-[300px]">
-          <Image src="https://res.cloudinary.com/dhciks96e/image/upload/v1678480549/AI_ddqszo.png" fill alt="web-screenshot" />
+          <Image src="https://res.cloudinary.com/dhciks96e/image/upload/v1678480549/marketplace_vlbynq.png" fill alt="web-screenshot" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">Jenga</h2>
