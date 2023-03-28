@@ -21,7 +21,7 @@ Resume
 <Link href={"/projects"} className={`btn normal-case text-xs md:text-xl mr-2 md:mr-4 ${route==="/projects"? "": "btn-ghost"}`}>
 Projects
 </Link>
-<Link href={"/blog"} className={`btn normal-case text-xs md:text-xl mr-2 md:mr-4 ${route==="/projects"? "": "btn-ghost"}`}>
+<Link href={"/blog"} className={`btn normal-case text-xs md:text-xl mr-2 md:mr-4 ${route==="/blog"? "": "btn-ghost"}`}>
 Blog
 </Link>
 
