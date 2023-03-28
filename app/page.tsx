@@ -14,7 +14,7 @@ export default function Home() {
             <span>Jack Gathondu </span>
           </li>
           <li>
-            <span> a web developer </span>
+            <span> a product developer </span>
           </li>
           <li>
             <span> an autodidact</span>
@@ -29,7 +29,7 @@ export default function Home() {
           I am <strong>Jack Gathondu</strong>, I made this site for{" "}
           <strong>you </strong>😊!
         </p>
-        <p>I am a web developer and react performance enthusiast.</p>
+        <p>I am a product developer and a web performance enthusiast.</p>
         <p>
           Check my projects and experiments on{" "}
           <a
@@ -52,7 +52,7 @@ export default function Home() {
           >
             <strong>Twitter</strong>
           </a>{" "}
-          where I share on React, and sometimes, funny memes 🙈.
+          where I share on React, customer development and sometimes, funny memes 🙈.
         </p>
         <p>
           Email me via{" "}
