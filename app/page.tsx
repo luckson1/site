@@ -17,7 +17,7 @@ export default function Home() {
 			</h1>
 
 			<div className="hidden w-full h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-			<div className="my-16 text-start animate-fade-in leading-loose flex flex-col gap-3">
+			<div className="my-16 text-start animate-fade-in leading-loose flex flex-col gap-3 mx-5">
             <p>
           I am <strong>Jack Gathondu</strong>, 
         </p>
