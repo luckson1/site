@@ -22,6 +22,21 @@ const page = () => {
     </div>
   </div>
 </div>
+<div className="card w-full glass shadow-accent shadow-lg ">
+        <figure className="relative w-full h-[200px] md:h-[300px]">
+    <Image src={'/memo.jpg'} fill alt='keys'/></figure>
+  <div className="card-body">
+    <h2 className="card-title"> Memoization: Like a Fine Wine, It Should Be Enjoyed in Moderation. </h2>
+    <p>Memoization can be a lifesaver for app performance, however, it might be counter-productive if misused.</p>
+   
+    <div className="card-actions justify-end">
+      <Link href={'/blog/memoization'}>
+      <button className="btn btn-primary">Read More</button>
+      </Link>
+  
+    </div>
+  </div>
+</div>
     </div>
   )
 }
