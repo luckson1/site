@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center w-full -mt-20 h-fit overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black rounded-2xl">
+		<div className="flex flex-col items-center justify-center w-full -mt-28 h-fit overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black rounded-2xl">
 			<div className="my-16 animate-fade-in">
 			<p> I made this site for{" "}
           <strong className="text-lg">you </strong>, my visitor😊!</p>
