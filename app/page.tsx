@@ -1,33 +1,25 @@
-export default function Home() {
-  return (
-    <main className="bg-base-100 p-6 flex flex-col gap-16">
-      <p className=" text-[20px]  font-bold  text-base-content md:text-[28px] lg:text-[63px]">
-        Hi 👋,{" "}
-      </p>
+import Link from "next/link";
+import React from "react";
 
-      <div className="wrapper   flex h-fit min-h-[48px]  w-fit items-center bg-base-100">
-        <div className=" inline text-[20px]  font-bold  text-base-content md:text-[28px] lg:text-[63px] ">
-          I am
-        </div>
-        <ul className=" dynamic  mt-1 ml-5 text-base-content lg:mt-4 lg:ml-10 ">
-          <li>
-            <span>Jack Gathondu </span>
-          </li>
-          <li>
-            <span> a product developer </span>
-          </li>
-          <li>
-            <span> an autodidact</span>
-          </li>
-          <li>
-            <span>an AI enthusiast </span>
-          </li>
-        </ul>
-      </div>
-      <div className="leading-loose flex flex-col gap-3">
-        <p>
-          I am <strong>Jack Gathondu</strong>, I made this site for{" "}
-          <strong>you </strong>😊!
+
+
+export default function Home() {
+	return (
+		<div className="flex flex-col items-center justify-center w-full -mt-20 h-fit overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black rounded-2xl">
+			<div className="my-16 animate-fade-in">
+			<p> I made this site for{" "}
+          <strong className="text-lg">you </strong>, my visitor😊!</p>
+			</div>
+			<div className="hidden w-full h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+
+			<h1 className="z-10 text-4xl  text-transparent duration-1000 cursor-default text-edge-outline animate-title  font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text bg-white ">
+				Jack
+			</h1>
+
+			<div className="hidden w-full h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+			<div className="my-16 text-start animate-fade-in leading-loose flex flex-col gap-3">
+            <p>
+          I am <strong>Jack Gathondu</strong>, 
         </p>
         <p>I am a product developer and a web performance enthusiast.</p>
         <p>
@@ -36,7 +28,7 @@ export default function Home() {
             href="https://github.com/luckson1"
             target="_blank"
             rel="noreferrer nofollow"
-            className="text-primary underline"
+            className=" underline"
           >
             <strong>GitHub</strong>
           </a>
@@ -48,7 +40,7 @@ export default function Home() {
             href="https://twitter.com/JackBatian"
             target="_blank"
             rel="noreferrer nofollow"
-            className="text-primary underline"
+            className=" underline"
           >
             <strong>Twitter</strong>
           </a>{" "}
@@ -60,12 +52,12 @@ export default function Home() {
             href="mailto:jackgathondu@gmail.com"
             target="_blank"
             rel="noreferrer nofollow"
-            className="text-primary underline"
+            className=" underline"
           >
             <strong>jackgathondu@gmail.com</strong>
           </a>
         </p>
-      </div>
-    </main>
-  );
+			</div>
+		</div>
+	);
 }
