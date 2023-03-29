@@ -11,14 +11,14 @@ const page = () => {
         </div>
         <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
           <div className="print:text-right lg:text-right">
-            <span className="text-black/60">Dec 2020 – Present</span>
+            <span className="text-white">Dec 2020 – Present</span>
           </div>
           <div className="print:col-span-3 lg:col-span-3">
             <h2 className="inline font-bold">Full-stack Developer</h2>
             <span className="[&_a]:underline"></span>
           </div>
           <div className="print:text-right lg:text-right">
-            <span className="text-sm text-black/60">Full Time</span>
+            <span className="text-sm text-white">Full Time</span>
           </div>
           <div className="print:col-span-3 lg:col-span-3">
             <ul className="mx-5 my-2 flex list-disc flex-col gap-1 text-sm">
@@ -52,7 +52,7 @@ const page = () => {
         </div>
         <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
           <div className="print:text-right lg:text-right">
-            <span className="text-black/60">Feb 2017 – Dec 2021</span>
+            <span className="text-white">Feb 2017 – Dec 2021</span>
           </div>
           <div className="print:col-span-3 lg:col-span-3">
             <h2 className="inline font-bold">
@@ -60,7 +60,7 @@ const page = () => {
             </h2>
           </div>
           <div className="print:text-right lg:text-right">
-            <span className="text-sm text-black/60">Full-time</span>
+            <span className="text-sm text-white">Full-time</span>
           </div>
           <div className="print:col-span-3 lg:col-span-3">
             <ul className="mx-5 my-2 flex list-disc flex-col gap-1 text-sm">
@@ -98,7 +98,7 @@ const page = () => {
           </div>
           <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
             <div className="print:text-right lg:text-right">
-              <span className="text-black/60">Jan 2016 – June 2019</span>
+              <span className="text-white">Jan 2016 – June 2019</span>
             </div>
             <div className="print:col-span-3 lg:col-span-3">
               <h2 className="inline font-bold">
@@ -107,7 +107,7 @@ const page = () => {
               <span>by CFA Institute</span>
             </div>
             <div className="print:text-right lg:text-right">
-              <span className="text-sm text-black/60" />
+              <span className="text-sm text-white" />
             </div>
             <div className="print:col-span-3 lg:col-span-3">
               <p>Nairobi Kenya</p>
@@ -115,7 +115,7 @@ const page = () => {
           </div>
           <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
             <div className="print:text-right lg:text-right">
-              <span className="text-black/60">Jan 2009 – Jan 2012</span>
+              <span className="text-white">Jan 2009 – Jan 2012</span>
             </div>
             <div className="print:col-span-3 lg:col-span-3">
               <h2 className="inline font-bold">
@@ -124,7 +124,7 @@ const page = () => {
               <span>at The University of Nairobi</span>
             </div>
             <div className="print:text-right lg:text-right">
-              <span className="text-sm text-black/60" />
+              <span className="text-sm text-white" />
             </div>
             <div className="print:col-span-3 lg:col-span-3">
               <p>Nairobi, Kenya</p>
