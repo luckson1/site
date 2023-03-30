@@ -8,8 +8,7 @@ const page = () => {
 
 
 <div className="card w-full glass shadow-accent shadow-lg ">
-        <figure className="relative w-full h-[200px] md:h-[300px]">
-    <Image src={'/key.jpg'} fill alt='keys'/></figure>
+    
   <div className="card-body">
     <h2 className="card-title"> Why You Need keys for Collections in React </h2>
     <p>By using a unique identifier like an id as the key prop, we can ensure that React can efficiently update the rendered list when the data changes. React will not have to re-render the whole list, but only re-render the part of the list that has changed. It needs a unique identifier to pinpoint the exact changes. </p>
@@ -23,8 +22,7 @@ const page = () => {
   </div>
 </div>
 <div className="card w-full glass shadow-accent shadow-lg ">
-        <figure className="relative w-full h-[200px] md:h-[300px]">
-    <Image src={'/memo.jpg'} fill alt='keys'/></figure>
+     
   <div className="card-body">
     <h2 className="card-title"> Memoization: Like a Fine Wine, It Should Be Enjoyed in Moderation. </h2>
     <p>Memoization can be a lifesaver for app performance, however, it might be counter-productive if misused.</p>
