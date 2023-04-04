@@ -35,6 +35,22 @@ const page = () => {
     </div>
   </div>
 </div>
+<div className="card w-full glass shadow-accent shadow-md ">
+    
+  <div className="card-body">
+  <h2 className='card-title'>React Server Components: Improving Performance & Simplifying Isomorphic App Development</h2>
+    <p>Recently, the React team at Meta has been championing a new direction for the front-end library. 
+</p>  
+<p>They introduced React Server Components.</p>
+   
+    <div className="card-actions justify-end">
+      <Link href={'/blog/react-server-components'}>
+      <button className="btn btn-primary">Read More</button>
+      </Link>
+  
+    </div>
+  </div>
+</div>
     </div>
   )
 }
