@@ -4,20 +4,10 @@ const page = () => {
   return (
     <>
       <div className="flex flex-col gap-16 print:gap-6 lg:gap-6">
-      <div className="flex flex-col gap-16 print:gap-6 lg:gap-6">
-          <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
-            <div className="print:col-span-3 print:col-start-2 lg:col-span-3 lg:col-start-2">
-              <h2 className="text-2xl font-bold text-blue-600">
-              Summary
-              </h2>
-            </div>
-          </div>
-          <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
-            <div className="print:col-span-3 print:col-start-2 lg:col-span-3 lg:col-start-2">
-            <p>I am Jack, a full-stack developer (React, and Node.js). I am a team player who values great communication and is experienced in working remotely. </p>
-            </div>
-          </div>
-        </div>
+      <div className="flex flex-col gap-6 print:mt-10 print:gap-2"><h1 className="text-3xl md:text-6xl"><span className="font-black">Jack {" "}</span>
+<span className="font-extralight">{" "} Gathondu</span></h1>
+<h2 className="md:text-xl">Product developer, and a team player who values good communication and is experienced in working remotely. 
+</h2></div>
         <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
           
           <div className="print:col-start-2 lg:col-span-3 lg:col-start-2">
