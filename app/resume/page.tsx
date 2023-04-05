@@ -4,17 +4,32 @@ const page = () => {
   return (
     <>
       <div className="flex flex-col gap-16 print:gap-6 lg:gap-6">
+      <div className="flex flex-col gap-16 print:gap-6 lg:gap-6">
+          <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
+            <div className="print:col-span-3 print:col-start-2 lg:col-span-3 lg:col-start-2">
+              <h2 className="text-2xl font-bold text-blue-600">
+              Summary
+              </h2>
+            </div>
+          </div>
+          <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
+            <div className="print:col-span-3 print:col-start-2 lg:col-span-3 lg:col-start-2">
+            <p>I am Jack, a full-stack developer (React, and Node.js). I am a team player who values great communication and is experienced in working remotely. </p>
+            </div>
+          </div>
+        </div>
         <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
+          
           <div className="print:col-start-2 lg:col-span-3 lg:col-start-2">
             <h2 className="text-2xl font-bold text-blue-600">Experience</h2>
           </div>
         </div>
         <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
           <div className="print:text-right lg:text-right">
-            <span className="text-white">Dec 2020 – Present</span>
+            <span className="text-white">June 2022 – Present</span>
           </div>
           <div className="print:col-span-3 lg:col-span-3">
-            <h2 className="inline font-bold">Full-stack Developer</h2>
+            <h2 className="inline font-bold">Freelance Developer</h2>
             <span className="[&_a]:underline"></span>
           </div>
           <div className="print:text-right lg:text-right">
@@ -28,35 +43,54 @@ const page = () => {
                 diverse industries.
               </li>
               <li>
-                Designed and implemented scalable and performant front-end and
-                back-end architectures using NextJS, ensuring optimal user
-                experience and maximum data integrity.
+              Built headless marketing websites to improve Google Lighthouse&apos;s scores to 97% and above in performance, accessibility, Best Practices, and SEO.
               </li>
               <li>
-                Worked closely with clients to identify project requirements and
-                specifications, ensuring timely and efficient delivery of
-                quality solutions.
+              Built a custom Shopify app for a client to customize and personalize their customer&apos;s product orders before checkout. It resulted in a 17% reduction in abandoned carts.
               </li>
               <li>
-                Collaborated with cross-functional teams, including designers
-                and project managers, to ensure seamless project execution and
-                successful outcomes.
+              Built custom internal productivity tools for SMEs such as a custom ChatGPT user interface that takes into account industry workflows, to improve employee productivity.
               </li>
-              <li>
-                Implemented and maintained secure coding practices, including
-                encryption, authentication, and authorization, to protect
-                sensitive data and ensure compliance with industry standards.
-              </li>
+             
             </ul>
           </div>
         </div>
         <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
           <div className="print:text-right lg:text-right">
-            <span className="text-white">Feb 2017 – Dec 2021</span>
+            <span className="text-white">Jul 2020 – March 2022</span>
+          </div>
+          <div className="print:col-span-3 lg:col-span-3">
+            <h2 className="inline font-bold">Fullstack Developer at </h2> <span >at <a href="https://www.linkedin.com/company/uzimahealth/about/" className="underline" target="_blank" rel="noreferrer nofollow">Uzima Health</a></span>
+            <span className="[&_a]:underline"></span>
+          </div>
+          <div className="print:text-right lg:text-right">
+            <span className="text-sm text-white">Full Time</span>
+          </div>
+          <div className="print:col-span-3 lg:col-span-3">
+            <ul className="mx-5 my-2 flex list-disc flex-col gap-1 text-sm">
+              <li>
+              Contributed to the development of real-time data support and analytics tools that enabled healthcare providers to monitor their performance and make data-driven decisions.
+              </li>
+              <li>
+              Improved the system&apos;s security and compliance by implementing role-based access control. 
+              </li>
+              <li>
+              Optimized the company&apos;s marketing web pages, reducing loading times by 30%.
+              </li>
+              <li>
+              Collaborated with other developers and designers to build a health records system, which resulted in a 20% reduction in patient wait times and improved patient outcomes.
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+        <div className="grid items-baseline gap-x-10 print:grid-cols-4 lg:grid-cols-4">
+          <div className="print:text-right lg:text-right">
+            <span className="text-white">Feb 2017 – Dec 2019 </span>
           </div>
           <div className="print:col-span-3 lg:col-span-3">
             <h2 className="inline font-bold">
-              Technical SEO consultant, web developer
+              Technical SEO consultant and Web Developer
             </h2>
           </div>
           <div className="print:text-right lg:text-right">
