@@ -5,7 +5,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-      <div className="card w-full glass shadow-warning shadow-lg">
+      <div className="card w-full glass ">
         <figure className="relative w-full h-[200px] md:h-[300px]">
           <Image
             src="https://res.cloudinary.com/dhciks96e/image/upload/v1678480548/dashboard_cwkx7m.png"
@@ -24,7 +24,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="card w-full glass shadow-warning shadow-lg ">
+      <div className="card w-full glass  ">
         <figure className="relative w-full h-[200px] md:h-[300px]">
           <Image
             src="https://res.cloudinary.com/dhciks96e/image/upload/v1678480552/task_whbfpx.png"
@@ -47,7 +47,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="card w-full glass shadow-warning shadow-lg ">
+      <div className="card w-full glass  ">
         <figure className="relative w-full h-[200px] md:h-[300px]">
           <Image
             src="https://res.cloudinary.com/dhciks96e/image/upload/v1678480549/marketplace_vlbynq.png"
@@ -71,7 +71,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="card w-full glass shadow-warning shadow-lg ">
+      <div className="card w-full glass  ">
         <figure className="relative w-full h-[200px] md:h-[300px]">
           <Image
             src="https://res.cloudinary.com/dhciks96e/image/upload/v1678480549/AI_ddqszo.png"
