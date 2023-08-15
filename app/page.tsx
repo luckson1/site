@@ -21,7 +21,7 @@ export default function Home() {
             <p>
           I am <strong>Jack Gathondu</strong>, 
         </p>
-        <p>I am a product developer and a web performance enthusiast.</p>
+        <p>I am a Product Engineer and Deep Learning Enthusiast.</p>
         <p>
           Check my projects and experiments on{" "}
           <a
@@ -44,7 +44,7 @@ export default function Home() {
           >
             <strong>Twitter</strong>
           </a>{" "}
-          where I share on React, customer development and sometimes, funny memes 🙈.
+          where I share on UI, UX, ML, and funny memes 🙈.
         </p>
         <p>
           Email me via{" "}
